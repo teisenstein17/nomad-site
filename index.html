@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Nomad — Premium Outdoor Gear</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,sans-serif;background:#fff;color:#1a1a1a}nav{display:flex;align-items:center;justify-content:space-between;padding:16px 48px;border-bottom:1px solid #e5e5e5}
+.logo{font-size:22px;font-weight:800}.nav-links a{margin-left:24px;text-decoration:none;color:#555;font-size:14px}.btn{padding:10px 20px;border-radius:6px;font-size:14px;font-weight:600;cursor:pointer;border:none;background:#111;color:white}
+.hero{background:#1a1a2e;color:white;padding:120px 48px;text-align:center}.hero h1{font-size:64px;font-weight:900;margin-bottom:20px}.hero p{font-size:20px;color:#aaa;margin-bottom:40px}
+.hero-btns{display:flex;gap:16px;justify-content:center}.btn-white{background:white;color:#111;padding:14px 32px;border-radius:6px;font-size:16px;font-weight:600;cursor:pointer;border:none}
+.btn-outline{background:transparent;color:white;border:2px solid white;padding:14px 32px;border-radius:6px;font-size:16px;font-weight:600;cursor:pointer}
+.section{padding:80px 48px;max-width:1200px;margin:0 auto}.section h2{font-size:36px;font-weight:800;margin-bottom:8px}.section p{color:#666;font-size:18px;margin-bottom:48px}
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}.product-card{cursor:pointer}
+.product-img{background:#f5f5f5;height:280px;border-radius:12px;margin-bottom:16px;display:flex;align-items:center;justify-content:center;font-size:48px}
+.product-name{font-size:16px;font-weight:600;margin-bottom:4px}.product-price{color:#666}
+.footer{background:#111;color:#aaa;padding:60px 48px;margin-top:80px}.footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;max-width:1200px;margin:0 auto}
+.footer h4{color:white;margin-bottom:16px;font-size:13px;text-transform:uppercase}.footer a{display:block;color:#aaa;text-decoration:none;font-size:13px;margin-bottom:8px}</style></head>
+<body>
+<nav><div class="logo">NOMAD</div><div class="nav-links">
+<a href="/products">Shop</a><a href="/collections/winter">Collections</a><a href="/journal">Journal</a><a href="/cart">Cart</a><a href="/account">Account</a></div></nav>
+<div class="hero"><h1>Built for the wild.</h1><p>Premium outdoor gear engineered for those who go further.</p>
+<div class="hero-btns"><button class="btn-white" onclick="location='/products'">Shop now</button><button class="btn-outline" onclick="location='/collections/winter'">View lookbook</button></div></div>
+<div class="section"><h2>New arrivals</h2><p>Fresh drops for the season ahead.</p>
+<div class="product-grid">
+<div class="product-card" onclick="location='/products/ridgeline-backpack'"><div class="product-img">🎒</div><div class="product-name">Ridgeline 45L Backpack</div><div class="product-price">$289</div></div>
+<div class="product-card" onclick="location='/products/summit-jacket'"><div class="product-img">🧥</div><div class="product-name">Summit Shell Jacket</div><div class="product-price">$349</div></div>
+<div class="product-card" onclick="location='/products/trail-boots'"><div class="product-img">👢</div><div class="product-name">Trail Force Boots</div><div class="product-price">$219</div></div>
+</div></div>
+<div class="footer"><div class="footer-grid"><div><div class="logo" style="color:white;margin-bottom:16px">NOMAD</div><p>Premium outdoor gear.</p></div>
+<div><h4>Shop</h4><a href="/products">All products</a><a href="/collections/winter">Collections</a></div>
+<div><h4>Company</h4><a>About</a><a>Sustainability</a></div><div><h4>Help</h4><a>Shipping</a><a>Returns</a></div></div></div>
+<script>(function(){var KEY='lc_snip_dcd2ef2d0ed24e95adae5cc7c82e85fb';var EP='https://nyrdvltmzswxphvgxdeh.supabase.co/functions/v1/ingest';var q=[];var sid=(function(){try{var i=sessionStorage.getItem('lc_sid');if(!i){i=Math.random().toString(36).slice(2)+Date.now();sessionStorage.setItem('lc_sid',i);}return i;}catch(e){return Math.random().toString(36).slice(2)+Date.now();}})();function base(){return{url:location.href,path:location.pathname,title:document.title,referrer:document.referrer,session_id:sid,screen_width:screen.width,screen_height:screen.height,timestamp:new Date().toISOString()};}function flush(){if(!q.length)return;var b=q.splice(0);fetch(EP,{method:'POST',headers:{'Content-Type':'application/json','x-snippet-key':KEY},body:JSON.stringify({events:b}),keepalive:true}).catch(function(){});}function enq(n,p){q.push({event:n,properties:Object.assign(base(),p),source:'snippet',snippet_version:'0.1.0'});if(q.length>=5)flush();}enq('snippet_loaded',{site_root:location.protocol+'//'+location.host});enq('page_view',{});window.addEventListener('pagehide',flush);window.addEventListener('beforeunload',flush);setInterval(flush,3000);})();</script>
+</body></html>
