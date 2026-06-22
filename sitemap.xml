@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nomad-site.netlify.app/</loc></url>
-  <url><loc>https://nomad-site.netlify.app/products</loc></url>
-  <url><loc>https://nomad-site.netlify.app/products/ridgeline-backpack</loc></url>
-  <url><loc>https://nomad-site.netlify.app/products/summit-jacket</loc></url>
-  <url><loc>https://nomad-site.netlify.app/products/trail-boots</loc></url>
-  <url><loc>https://nomad-site.netlify.app/cart</loc></url>
-  <url><loc>https://nomad-site.netlify.app/checkout</loc></url>
-  <url><loc>https://nomad-site.netlify.app/order-confirmation</loc></url>
-  <url><loc>https://nomad-site.netlify.app/account</loc></url>
-  <url><loc>https://nomad-site.netlify.app/account/register</loc></url>
-  <url><loc>https://nomad-site.netlify.app/collections/winter</loc></url>
-  <url><loc>https://nomad-site.netlify.app/journal</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/products</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/products/ridgeline-backpack</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/products/summit-jacket</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/products/trail-boots</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/cart</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/checkout</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/order-confirmation</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/account</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/account/register</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/collections/winter</loc></url>
+  <url><loc>https://teisenstein17.github.io/nomad-site/journal</loc></url>
 </urlset>
